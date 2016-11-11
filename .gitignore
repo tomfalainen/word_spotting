@@ -1,0 +1,15 @@
+*.t7
+*.json
+*~
+*.pyc
+*.h5
+*.tar.gz
+*.npy
+*.zip
+*.gz
+*.odt
+
+data/washington/augmented/*
+data/washington/words/*
+data/washington/gw_20p_wannot/*
+data/washington/annotation.txt
