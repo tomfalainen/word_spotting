@@ -1,4 +1,5 @@
 *.t7
+*.png
 *.json
 *~
 *.pyc
