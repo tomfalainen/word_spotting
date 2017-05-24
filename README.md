@@ -24,7 +24,7 @@ When preparing my code for this release, I have discovered mistake in the paper.
 ### Requirements
 As of now, the code requires an NVIDIA GPU with CUDA installed. The triplet network requires less than 6 GBs of memory while the embedding network requires less than 2 GBs. You can further reduce the memory footprint by using the [OptNet](https://github.com/fmassa/optimize-net) package. This could be useful if you have trouble fitting your models on your GPUs.
 
-The code is written in Python and Lua, and requires Torch, which can be installed [here](http://torch.ch/docs/getting-started.html). 
+The code is written in Python and Lua, and requires Torch, which can be installed from [here](http://torch.ch/docs/getting-started.html). 
 
 It also requires the following Torch packages: 
  - npy4th
