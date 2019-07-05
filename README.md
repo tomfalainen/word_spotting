@@ -67,18 +67,10 @@ unzip washington_embeddings.zip
 cd ../
 ```
 
-Finally, you need to download the model used to initialize the networks, trained on the [CVL](https://www.caa.tuwien.ac.at/cvl/research/cvl-databases/an-off-line-database-for-writer-retrieval-writer-identification-and-word-spotting/) dataset.
-
-
-```
-mkdir pretrained
-cd pretrained
-wget http://user.it.uu.se/~tomwi522/presnet_34_cvl_iter_185000.t7
-cd ../
-```
+Finally, you need to download the model used to initialize the networks, trained on the [CVL](https://www.caa.tuwien.ac.at/cvl/research/cvl-databases/an-off-line-database-for-writer-retrieval-writer-identification-and-word-spotting/) dataset.You can find it [here](https://uppsala.box.com/s/bbc35q5a171qzpvshiqes670fhuke5ch). Save the model to the folder `pretrained´.
 
 ### Pre-trained models 
-You can download some [pre-trained models](https://drive.google.com/open?id=0B3A3gL1SjnBMaW80QlV0d2swQ1E) for a fold 1 using the 4 embeddings. Trained using this code base. Note that these models are saved as CudaTensors and thus require cutorch and cudnn.
+You can download some [pre-trained models](https://uppsala.box.com/s/o9y7oc05w98xvqttfjvse25vf3zzczng) for a fold 1 using the 4 embeddings. Trained using this code base. Note that these models are saved as CudaTensors and thus require cutorch and cudnn.
 
 ### Training from scratch
 Code to setup the Washington dataset is suplied in misc/preprocess.py. Running
